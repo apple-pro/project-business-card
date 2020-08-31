@@ -13,6 +13,7 @@
 		F00EB2BA24FD26D900963533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00EB2B924FD26D900963533 /* Assets.xcassets */; };
 		F00EB2BD24FD26D900963533 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00EB2BC24FD26D900963533 /* Preview Assets.xcassets */; };
 		F00EB2C024FD26D900963533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00EB2BE24FD26D900963533 /* LaunchScreen.storyboard */; };
+		F00EB2CC24FD2A3800963533 /* JohnWick.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F00EB2CB24FD2A3800963533 /* JohnWick.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F00EB2BC24FD26D900963533 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F00EB2BF24FD26D900963533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F00EB2C124FD26D900963533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00EB2CB24FD2A3800963533 /* JohnWick.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JohnWick.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F00EB2B924FD26D900963533 /* Assets.xcassets */,
 				F00EB2BE24FD26D900963533 /* LaunchScreen.storyboard */,
 				F00EB2C124FD26D900963533 /* Info.plist */,
+				F00EB2CA24FD2A1E00963533 /* fonts */,
 				F00EB2BB24FD26D900963533 /* Preview Content */,
 			);
 			path = BusinessCard;
@@ -73,6 +76,14 @@
 				F00EB2BC24FD26D900963533 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F00EB2CA24FD2A1E00963533 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB2CB24FD2A3800963533 /* JohnWick.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			files = (
 				F00EB2C024FD26D900963533 /* LaunchScreen.storyboard in Resources */,
 				F00EB2BD24FD26D900963533 /* Preview Assets.xcassets in Resources */,
+				F00EB2CC24FD2A3800963533 /* JohnWick.ttf in Resources */,
 				F00EB2BA24FD26D900963533 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

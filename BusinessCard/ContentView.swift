@@ -10,7 +10,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Color(.red)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                
+                Text("John Wick")
+                    .font(Font.custom("JohnWick", size: 40))
+                    .bold()
+                    .foregroundColor(.white)
+                
+                Text("Hitman")
+                    .bold()
+                    .foregroundColor(.white)
+            }
+        }
     }
 }
 
